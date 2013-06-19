@@ -1,4 +1,10 @@
 Oscpw::Application.routes.draw do
+  get "pw_question/textbookSelect"
+
+  get "pw_question/chapterSelect"
+
+  get "pw_question/questionView"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
