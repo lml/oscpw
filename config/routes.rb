@@ -1,4 +1,7 @@
 Oscpw::Application.routes.draw do
+  resources :textbooks
+
+
   get "pw_question/textbookSelect"
 
   get "pw_question/chapterSelect"
